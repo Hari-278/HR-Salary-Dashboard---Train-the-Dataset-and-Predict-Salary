@@ -1,0 +1,48 @@
+<html>
+  <head>
+    <title>Salary Prediction</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Coiny&family=Sono:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      *::after,
+      *::before,
+      * {
+        margin: 0;
+        border: 0;
+        box-sizing: border-box;
+      }
+      body {
+        max-height: 100vh;
+        display: flex;
+        justify-content: center;
+        margin-top: 200px;
+        background-color: #292524;
+        text-align: center;
+      }
+
+      h1 {
+        text-align: center;
+        font-family: "Coiny", cursive;
+        margin-bottom: 30px;
+        color: #fff;
+        letter-spacing: 2px;
+        font-size: 30px;
+      }
+      p {
+        background-color: #44403c;
+        padding: 30px;
+        border-radius: 20px;
+        color: #fff;
+        font-family: "Sono", sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="container">
+      <h1>Salary Prediction Result</h1>
+      <p>The predicted salary is:{{ salary }}</p>
+    </section>
+  </body>
+</html>
